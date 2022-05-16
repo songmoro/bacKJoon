@@ -9,8 +9,6 @@ for i in range(2,int(math.sqrt(n)+1)):
     if d[i] != 0:
         for j in range(i * 2, n + 1, i):
             d[j] = 0
-    else:
-        continue
 
 for i in range(m,n+1):
     if d[i] != 0:
